@@ -80,6 +80,51 @@ classDiagram
     Main --> Veiculo
 ````
 
+## Exemplo de Saída:
+
+```bash
+---------------------------------------------
+            Consulta Tabela FIPE
+---------------------------------------------
+
+Digite o tipo de veiculo:
+
+1. Motos
+2. Carros
+3. Caminhoes
+
+Digite Aqui: 2
+
+[LISTA DE MARCAS]
+
+Digite o codigo do modelo para consultar valores: 21
+
+[LISTA DE MODELOS]
+
+Digite um trecho do nome do veículo para consulta: Toro
+
+[RESULTADO DA BUSCA]
+
+Digite o código do veiculo para consultar valores:8237
+
+Modelo = Toro Volcano 2.4 16V Flex Aut.
+Ano de Lancamento = 2019
+Marca = Fiat
+Combustivel = Gasolina
+Valor = R$ 99.434,00
+
+Modelo = Toro Volcano 2.4 16V Flex Aut.
+Ano de Lancamento = 2020
+Marca = Fiat
+Combustivel = Gasolina
+Valor = R$ 106.550,00
+
+Modelo = Toro Volcano 2.4 16V Flex Aut.
+Ano de Lancamento = 2021
+Marca = Fiat
+Combustivel = Gasolina
+Valor = R$ 110.423,00
+```
 ## Contribuições:
 
 Sinta-se à vontade para contribuir com o projeto! Se você tem sugestões de melhorias, correções de bugs ou novas funcionalidades, abra um Pull Request e ajude a tornar o ConsultaFIPE ainda melhor.
